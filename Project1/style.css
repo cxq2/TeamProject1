@@ -1,3 +1,5 @@
+
+
 body {
     background-image: url("Images/Webpage_Background.png");
     background-repeat: no-repeat;
@@ -152,4 +154,50 @@ body {
     bottom: 0; 
     transform: translateX(-50%); 
     transition: transform 0.3s ease; 
+}
+
+
+.deck-of-card img {
+    right: 3%;
+    position: absolute;
+}
+
+/* Ace Card Css */
+.ace-card {
+    position: absolute;
+    top: 25%;
+    right: 3%; 
+}
+
+/* Jack Card Css */
+.jack-card {
+    position: absolute;
+    top: 28%;
+    right: 3%; 
+}
+
+
+/*King Card Css */
+.king-card {
+    position: absolute;
+    top: 32%;
+    right: 3%;
+}
+
+.king-card img {
+    width: 180px; 
+    height: auto; 
+}
+
+/* Queen Card Css */
+
+.queen-card {
+    position: absolute;
+    top: 36%;
+    right: 3%;
+}
+
+.queen-card img {
+    width: 180px; 
+    height: auto; 
 }
