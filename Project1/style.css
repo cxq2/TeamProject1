@@ -89,6 +89,61 @@ body {
 /* Css for the Rules page */
 
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 1em;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.rules_rule{
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #444;
+  padding: 20px;
+  width: 45%;
+  margin: 20px;
+  flex: 50%;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.values {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #444;
+  padding: 20px;
+  width: 45%;
+  margin: 20px;
+  flex: 50%;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+
+
+
 
 /* Css for Play page */
 .play-background {
